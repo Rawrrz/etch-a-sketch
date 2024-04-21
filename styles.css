@@ -24,8 +24,7 @@ body
 
 .col
 {
-  border: 1px blue solid;
+  border: 1px black solid;
   width: 10%;
   height: 98%;
-  background-color: red;
 }

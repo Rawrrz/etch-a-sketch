@@ -1,6 +1,7 @@
 body
 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -27,4 +28,28 @@ body
   border: 1px black solid;
   width: 10%;
   height: 98%;
+}
+
+.btn
+{
+  font-size: 15px;
+  font-family: roboto;
+  border-style: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 1%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover
+{
+  color: red;
+}
+
+h1
+{
+  font-family: roboto;
+  color: red;
 }
